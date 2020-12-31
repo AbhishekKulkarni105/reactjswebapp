@@ -1,0 +1,72 @@
+.PageWrapper {
+    margin-top: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.MainHeading {
+    margin: 0;
+}
+
+.OrdersWrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+
+.FilterWrapper {
+    width: 180px;
+}
+
+.FilterWrapper h3 {
+    margin: 0;
+}
+
+.FilterOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.FilterCheckbox {
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.FilterCheckbox input {
+    margin-right: 12px;
+}
+
+.OrderTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-decoration: none;
+    color: black;
+}
+
+.OrderTable th, .OrderTable td {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.TableRow td {
+    background-color: #fff;
+    border-bottom: 4px solid #F6F7FB;
+}
+
+.TableRow.ExpiredRow td {
+    /* background-color: #F6F7FB; */
+}
+
+.PrimaryText {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+}
+
+.SecondaryText {
+    color: #8c8c8c;
+}
